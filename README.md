@@ -9,17 +9,30 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 ## 📚 Topics Covered
 
 ### Arrays
-- Second Largest Element
-- Left Rotate Array by K Places
-- Longest Subarray with Sum = K (Positive Numbers)
-- (More problems added regularly)
+- [Second Largest Element](arrays.cpp/second_largest_element.cpp)
+- [Left Rotate Array by K Places](arrays.cpp/left_rotate_array_k.cpp)
+- [Check if Array is Sorted](arrays.cpp/checking_array_is_sorted.cpp)
+- [Missing Element in Array](arrays.cpp/missing_element.cpp)
+- [Union of Two Sorted Arrays](arrays.cpp/union_of_two_sorted_arrays.cpp)
+- [Move Zeroes to End of Array](arrays.cpp/move_zeros_to_end.cpp)
+- [Maximum Consecutive 1s in Array](arrays.cpp/maximum_consecutive_1's.cpp)
+- [Remove Duplicates from Sorted Array](arrays.cpp/remove_duplicates_from_sorted_array.cpp)
+- [Longest Subarray with Sum = K (Positive Numbers)](arrays.cpp/longest_subarray_sum_k_positive.cpp)
+- [Sort Array of 0s, 1s and 2s](arrays.cpp/sorting_array_012.cpp)
 
-### Hashing
-- Frequency Counting
-- Subarray Sum Equals K
-- (In Progress)
+*(More problems added regularly)*
 
-## 🧠 Approach
+
+## 🧠 Patterns Learned
+- Array traversal
+- Two pointers
+- Sliding window
+- In-place modification
+- Counting techniques
+- Dutch National Flag algorithm
+- Merge patterns
+
+## 🛠️ Problem-Solving Approach
 
 For most problems, I try to:
 - Start with brute force
@@ -35,9 +48,6 @@ Each file contains:
 
 ## 🚀 Current Focus
 - Arrays
-- Hashing
-- Sliding Window
-- Two Pointers (Next)
 
 ## 📌 Note
 This repository is continuously updated as I learn and practice DSA.
