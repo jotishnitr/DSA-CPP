@@ -19,6 +19,10 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - [Remove Duplicates from Sorted Array](arrays.cpp/remove_duplicates_from_sorted_array.cpp)
 - [Longest Subarray with Sum = K (Positive Numbers)](arrays.cpp/longest_subarray_sum_k_positive.cpp)
 - [Sort Array of 0s, 1s and 2s](arrays.cpp/sorting_array_012.cpp)
+- [Two sum](arrays.cpp/two_sum.cpp)
+- [Majority Element](arrays.cpp/majority_element.cpp)
+- [Maximum Subarray Sum](arrays.cpp/maximum_subarray_sum.cpp)
+- [Best time to Buy and sell the stock](arrays.cpp/best_time_to_buy_and_sell_stock.cpp)
 
 *(More problems added regularly)*
 
@@ -31,9 +35,12 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - Counting techniques
 - Dutch National Flag algorithm
 - Merge patterns
+- one pass
+- Moore's voting algorithm
+- Kadane's Algorithm
+- Greedy local tracking
 
 ## 🛠️ Problem-Solving Approach
-
 For most problems, I try to:
 - Start with brute force
 - Improve to better approach
