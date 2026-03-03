@@ -22,7 +22,7 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - [Two sum](arrays.cpp/two_sum.cpp)
 - [Majority Element](arrays.cpp/majority_element.cpp)
 - [Maximum Subarray Sum](arrays.cpp/maximum_subarray_sum.cpp)
-- [Best time to Buy and sell the stock](arrays.cpp/best_time_to_buy_and_sell_stockscpp)
+- [Best time to Buy and sell the stock](arrays.cpp/best_time_to_buy_and_sell_stocks.cpp)
 
 *(More problems added regularly)*
 
