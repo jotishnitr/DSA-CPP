@@ -24,10 +24,10 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - [Maximum Subarray Sum](arrays.cpp/maximum_subarray_sum.cpp)
 - [Best time to Buy and sell the stock](arrays.cpp/best_time_to_buy_and_sell_stocks.cpp)
 - [Rearrange Array by Sign](arrays.cpp/rearrange_array_elements_by_sign.cpp)
-- [Next permutation](arrays.cpp/next_permuatation.cpp)
+- [Next permutation](arrays.cpp/next_permutation.cpp)
 - [Leaders in array](arrays.cpp/leaders_in_array.cpp)
 - [Consecutive Three odds in Array](arrays.cpp/consecutive_three_odds.cpp)
-- [Consecutive Longest Sequence](arrays.cpp/longest_consecutive_sequence.cpp)
+- [Consecutive Longest Sequence](arrays.cpp/consecutive_longest_sequence.cpp)
 
 *(More problems added regularly)*
 
