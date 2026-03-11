@@ -28,6 +28,8 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - [Leaders in array](arrays.cpp/leaders_in_array.cpp)
 - [Consecutive Three odds in Array](arrays.cpp/consecutive_three_odds.cpp)
 - [Consecutive Longest Sequence](arrays.cpp/consecutive_longest_sequence.cpp)
+- [Set Matrix to zeroes](arrays.cpp/set_matrix_zeroes.cpp)
+- [Rotate Matrix by 90 degree](arrays.cpp/rotate_matrix_by_90degree.cpp)
 
 *(More problems added regularly)*
 
@@ -47,6 +49,9 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - Reverse Travel
 - Index Jumping
 - next permutation
+- Matrix traversal
+- In place marking
+- Transposing a matrix
 
 ## 🛠️ Problem-Solving Approach
 For most problems, I try to:
