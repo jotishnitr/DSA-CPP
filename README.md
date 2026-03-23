@@ -28,6 +28,17 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - [Leaders in array](arrays.cpp/leaders_in_array.cpp)
 - [Consecutive Three odds in Array](arrays.cpp/consecutive_three_odds.cpp)
 - [Consecutive Longest Sequence](arrays.cpp/consecutive_longest_sequence.cpp)
+- [print the matrix in spiral manner](arrays.cpp/spiral_matrix.cpp)
+- [Pascal triangle](arrays.cpp/pascal_trianlge.cpp)
+- [Majority Element-II](arrays.cpp/majority_element_II.cpp)
+- [Three sum](arrays.cpp/three_sum.cpp)
+- [Four sum](arrays.cpp/four_sum.cpp)
+- [Merge Overlapping Subintervals](arrays.cpp/merge_overlapping_subintervals.cpp)
+- [Merge two Sorted arrays without extra space](arrays.cpp/merge_two_sorted_arrays_without_extra_space.cpp)
+- [Find the repeating and missing number](arrays.cpp/missing_and_repeating_number.cpp)
+- [Count Inversions](arrays.cpp/count_inversions.cpp)
+- [Reverse Pairs](arrays.cpp/reverse_pairs.cpp)
+- [Maximum Product Subarray in an Array](arrays.cpp/max_product_subarray.cpp)
 
 *(More problems added regularly)*
 
