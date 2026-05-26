@@ -31,7 +31,7 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - [Set Matrix to zeroes](arrays.cpp/set_matrix_zeroes.cpp)
 - [Rotate Matrix by 90 degree](arrays.cpp/rotate_matrix_by_90degree.cpp)
 - [print the matrix in spiral manner](arrays.cpp/spiral_matrix.cpp)
-- [Pascal triangle](arrays.cpp/pascal_trianlge.cpp)
+- [Pascal triangle](arrays.cpp/pascal_triangle.cpp)
 - [Majority Element-II](arrays.cpp/majority_element_II.cpp)
 - [Three sum](arrays.cpp/three_sum.cpp)
 - [Four sum](arrays.cpp/four_sum.cpp)
