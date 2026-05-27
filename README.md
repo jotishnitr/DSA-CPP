@@ -42,6 +42,8 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - [Reverse Pairs](arrays.cpp/reverse_pairs.cpp)
 - [Maximum Product Subarray in an Array](arrays.cpp/max_product_subarray.cpp)
 
+### Binary Search
+- [Binary Search](Binary search/binary_search.cpp)
 *(More problems added regularly)*
 
 
@@ -70,6 +72,7 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - Dynamic Tracking (Kadane Variant)
 - Greedy Interval Merging
 - Matrix Simulation
+- Binary Search on Sorted Array
 
 
 ## 🛠️ Problem-Solving Approach
