@@ -43,11 +43,12 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - [Maximum Product Subarray in an Array](arrays.cpp/max_product_subarray.cpp)
 
 ### Binary Search
-- [Binary Search](Binary search/binary_search.cpp)
-*(More problems added regularly)*
+- [Binary Search](binary_search.cpp/binary_search.cpp)
+- *(More problems added regularly)*
 
 
 ## 🧠 Patterns Learned
+### Arrays
 - Array traversal
 - Two pointers
 - Sliding window
@@ -72,6 +73,7 @@ Build strong problem-solving fundamentals before moving to advanced topics and d
 - Dynamic Tracking (Kadane Variant)
 - Greedy Interval Merging
 - Matrix Simulation
+### Binary Search
 - Binary Search on Sorted Array
 
 
@@ -89,7 +91,7 @@ Each file contains:
 - Key learning
 
 ## 🚀 Current Focus
-- Arrays
+- Binary Search
 
 ## 📌 Note
 This repository is continuously updated as I learn and practice DSA.
