@@ -108,6 +108,21 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 | 01 | Binary Search | [📄 Code](binary_search.cpp/binary_search.cpp) | [🔗 LC 704](https://leetcode.com/problems/binary-search/) | — | Easy | Binary Search |
 | 02 | Lower Bound | [📄 Code](binary_search.cpp/lower_bound.cpp) | — |  [🔗 GFG](https://www.geeksforgeeks.org/problems/implement-lower-bound/1)  | Easy | First True Binary Search |
 | 03 | Upper Bound | [📄 Code](binary_search.cpp/upper_bound.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/implement-upper-bound/1) | Easy | First True Binary Search |
+| 04 | Search Insertion Position | [📄 Code](binary_search.cpp/search_insertion_position.cpp) | [🔗 LC 35](https://leetcode.com/problems/search-insert-position/) | — | Medium | First True Binary Search (Lower Bound) |
+| 05 | Find Floor in Sorted Array | [📄 Code](binary_search.cpp/floor.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Easy | Last True Binary Search |
+| 06 | Find Ceil in Sorted Array | [📄 Code](binary_search.cpp/ceil.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Easy | First True Binary Search |
+
+
+### 🟡 Medium
+
+| # | Problem | Solution | LeetCode | GFG | Difficulty | Key Pattern |
+|---|---|---|---|---|---|---|
+| 07 | Find First and Last Occurence | [📄 Code](binary_search.cpp/first_and_last_place_of_target.cpp) | [🔗 LC 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | — | Medium | - First True Binary Search
+Last True Binary Search
+Boundary Binary Search |
+| 08 | Search in rotated sorted array-I | [📄 Code](binary_search.cpp/search_in_rotated_sorted_array_1.cpp) | [🔗 LC 33](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | — | Medium | Binary Search on Rotated Array |
+
+
 
 *More problems being added regularly...*
 
@@ -154,7 +169,10 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 | Pattern | Problems Using It |
 |---|---|
 | Binary Search on Sorted Array | Binary Search (classic) |
-| First True Binary Search on Sorted Array | Lower bound, Upper bound |
+| First True Binary Search on Sorted Array | Lower bound, Upper bound, Search Insertion position, Ceil in Sorted Array, First and Last Occurence |
+| Last True Binary Search | Floor in Sorted Array, First and Last Occurence |
+| Boundary Binary Search | First and Last Occurence |
+| Binary Search on Rotated Array | Search in rotated sorted array-I |
 
 </details>
 
