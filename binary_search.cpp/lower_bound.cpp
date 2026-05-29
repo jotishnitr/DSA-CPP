@@ -4,6 +4,9 @@
     Practice Link:
     https://www.geeksforgeeks.org/problems/implement-lower-bound/1
 
+    Pattern Used:
+    First True Binary Search
+
     Goal:
     Find the first index such that:
         arr[index] >= target
@@ -59,6 +62,18 @@
             search right half
 
     5. Return ans
+
+    ---------------------------------------------------------
+    STL Shortcut
+
+    C++ provides built-in lower_bound():
+
+        int index =
+        lower_bound(arr.begin(), arr.end(), target)
+        - arr.begin();
+
+    lower_bound() returns an iterator pointing to:
+        FIRST element >= target
 
     ---------------------------------------------------------
     Time Complexity:
