@@ -121,6 +121,7 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 Last True Binary Search
 Boundary Binary Search |
 | 08 | Search in rotated sorted array-I | [📄 Code](binary_search.cpp/search_in_rotated_sorted_array_1.cpp) | [🔗 LC 33](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | — | Medium | Binary Search on Rotated Array |
+| 09 | Search in rotated sorted array-II | [📄 Code](binary_search.cpp/search_in_rotated_sorted_array_2.cpp) | [🔗 LC 81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | — | Medium | Binary Search on Rotated Array with Duplicates |
 
 
 
@@ -173,6 +174,7 @@ Boundary Binary Search |
 | Last True Binary Search | Floor in Sorted Array, First and Last Occurence |
 | Boundary Binary Search | First and Last Occurence |
 | Binary Search on Rotated Array | Search in rotated sorted array-I |
+| Binary Search on Rotated Array with Duplicates | Search in rotated sorted array-II |
 
 </details>
 
