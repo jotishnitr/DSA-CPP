@@ -5,7 +5,7 @@
 [![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://cplusplus.com/)
 [![Sheet](https://img.shields.io/badge/Sheet-Striver%20A2Z-orange?style=for-the-badge)](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 [![College](https://img.shields.io/badge/College-NIT%20Rourkela-blue?style=for-the-badge)](https://www.nitrkl.ac.in/)
-[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-44-brightgreen?style=for-the-badge)](#)
+[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-41-brightgreen?style=for-the-badge)](#)
 [![Focus](https://img.shields.io/badge/Current%20Focus-Binary%20Search-red?style=for-the-badge)](#binary-search)
 
 <br/>
