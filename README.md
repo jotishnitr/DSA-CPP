@@ -5,7 +5,7 @@
 [![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://cplusplus.com/)
 [![Sheet](https://img.shields.io/badge/Sheet-Striver%20A2Z-orange?style=for-the-badge)](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 [![College](https://img.shields.io/badge/College-NIT%20Rourkela-blue?style=for-the-badge)](https://www.nitrkl.ac.in/)
-[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-41-brightgreen?style=for-the-badge)](#)
+[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-48-brightgreen?style=for-the-badge)](#)
 [![Focus](https://img.shields.io/badge/Current%20Focus-Binary%20Search-red?style=for-the-badge)](#binary-search)
 
 <br/>
@@ -175,8 +175,11 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 | First True Binary Search on Sorted Array | Lower bound, Upper bound, Search Insertion position, Ceil in Sorted Array, First and Last Occurence |
 | Last True Binary Search | Floor in Sorted Array, First and Last Occurence |
 | Boundary Binary Search | First and Last Occurence |
-| Binary Search on Rotated Array | Search in rotated sorted array-I |
+| Binary Search on Rotated Array | Search in rotated sorted array-I, Minimum in Rotated Sorted Array, Find out how many times the array is rotated |
 | Binary Search on Rotated Array with Duplicates | Search in rotated sorted array-II |
+| Binary Search on Index Parity | Single element in a Sorted Array |
+| Binary Search on Peak | Find peak element |
+| Binary Search on Answer | Find square root of a number, Valid Perfect Square, Find Nth Root of a Number |
 
 </details>
 
