@@ -120,9 +120,13 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 | 07 | Find First and Last Occurence | [📄 Code](binary_search.cpp/first_and_last_place_of_target.cpp) | [🔗 LC 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | — | Medium | First True Binary Search /Last True Binary Search /Boundary Binary Search |
 | 08 | Search in rotated sorted array-I | [📄 Code](binary_search.cpp/search_in_rotated_sorted_array_1.cpp) | [🔗 LC 33](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | — | Medium | Binary Search on Rotated Array |
 | 09 | Search in rotated sorted array-II | [📄 Code](binary_search.cpp/search_in_rotated_sorted_array_2.cpp) | [🔗 LC 81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | — | Medium | Binary Search on Rotated Array with Duplicates |
-
-
-
+| 10 | Find minimum in Rotated Sorted Array | [📄 Code](binary_search.cpp/minimum_in_rotated_sorted_array.cpp) | [🔗 LC 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | — | Medium | Binary Search on Rotated Array |
+| 11 | Find out how many times the array is rotated | [📄 Code](binary_search.cpp/rotation_count_in_rotated_sorted_array.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/rotation4723/1) | Medium | Binary Search on Rotated Array |
+| 12 | Single element in a Sorted Array | [📄 Code](binary_search.cpp/single_element_in_sorted_array.cpp) | [🔗 LC 540](https://leetcode.com/problems/single-element-in-a-sorted-array/description/) | — | Medium | Binary Search on Index Parity |
+| 13 | Find peak element | [📄 Code](binary_search.cpp/peak_element_in_array.cpp) | [🔗 LC 162](https://leetcode.com/problems/find-peak-element/) | — | Medium | Binary Search on Peak / Local Maximum |
+| 14 | Find square root of a number | [📄 Code](binary_search.cpp/find_floor_square_root.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/square-root/1) | Medium | Binary Search on Answer |
+| 15 | Valid Perfect Square | [📄 Code](binary_search.cpp/valid_perfect_square.cpp) | [🔗 LC 367](https://leetcode.com/problems/valid-perfect-square/) | — | Medium | Binary Search on Answer |
+| 16 | Find Nth Root of a Number | [📄 Code](binary_search.cpp/find_nth_root_of_M.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1) | Medium | Binary Search on Answer |
 *More problems being added regularly...*
 
 ---
