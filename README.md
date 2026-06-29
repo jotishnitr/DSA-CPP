@@ -5,8 +5,8 @@
 [![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://cplusplus.com/)
 [![Sheet](https://img.shields.io/badge/Sheet-Striver%20A2Z-orange?style=for-the-badge)](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 [![College](https://img.shields.io/badge/College-NIT%20Rourkela-blue?style=for-the-badge)](https://www.nitrkl.ac.in/)
-[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-48-brightgreen?style=for-the-badge)](#)
-[![Focus](https://img.shields.io/badge/Current%20Focus-Binary%20Search-red?style=for-the-badge)](#binary-search)
+[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-63-brightgreen?style=for-the-badge)](#)
+[![Focus](https://img.shields.io/badge/Current%20Focus-Strings%20-red?style=for-the-badge)](#Strings)
 
 <br/>
 
@@ -32,8 +32,8 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 
 | Topic | Status | Problems Solved |
 |---|---|---|
-| Arrays | ✅ Complete | 32 / 32 |
-| Binary Search | 🔄 In Progress | 1 / 32+ |
+| Arrays | ✅ Complete | 33 / 33 |
+| Binary Search | ✅ Complete | 30 / 30 |
 | Strings | ⏳ Upcoming | 0 |
 | Linked Lists | ⏳ Upcoming | 0 |
 | Recursion & Backtracking | ⏳ Upcoming | 0 |
@@ -46,7 +46,7 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 
 ## 📁 Arrays
 
-> **32 Problems** · Each file contains: Problem Statement · Brute Force · Better Approach · Optimal Solution · Time & Space Complexity Analysis
+> **33 Problems** · Each file contains: Problem Statement · Brute Force · Better Approach · Optimal Solution · Time & Space Complexity Analysis
 
 ### 🟢 Easy
 
@@ -94,12 +94,13 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 | 30 | Find Missing and Repeating Number | [📄 Code](arrays.cpp/missing_and_repeating_number.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/find-the-repeating-and-the-missing4006/1) | Hard | Math / Sum Formulas |
 | 31 | Count Inversions | [📄 Code](arrays.cpp/count_inversions.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1) | Hard | Merge Sort + Count |
 | 32 | Reverse Pairs | [📄 Code](arrays.cpp/reverse_pairs.cpp) | [🔗 LC 493](https://leetcode.com/problems/reverse-pairs/) | — | Hard | Merge Sort + Count |
+| 33 | Find All Duplicates in an Array | [📄 Code](arrays.cpp/find_all_duplicates_in_an_array.cpp) | [🔗 LC 442](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | — | Medium | Index Marking / Negation |
 
 ---
 
 ## 🔍 Binary Search
 
-> **In Progress** · Prerequisite: Sorted arrays, Two Pointers, O(log n) thinking
+> **30 Problems** · Prerequisite: Sorted arrays, Two Pointers, O(log n) thinking
 
 ### 🟢 Easy
 
@@ -111,23 +112,42 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 | 04 | Search Insertion Position | [📄 Code](binary_search.cpp/search_insertion_position.cpp) | [🔗 LC 35](https://leetcode.com/problems/search-insert-position/) | — | Easy | First True Binary Search (Lower Bound) |
 | 05 | Find Floor in Sorted Array | [📄 Code](binary_search.cpp/floor.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/floor-in-a-sorted-array-1587115620/1) | Easy | Last True Binary Search |
 | 06 | Find Ceil in Sorted Array | [📄 Code](binary_search.cpp/ceil.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/ceil-in-a-sorted-array/1) | Easy | First True Binary Search |
+| 07 | First Bad Version | [📄 Code](binary_search.cpp/first_bad_version.cpp) | [🔗 LC 278](https://leetcode.com/problems/first-bad-version/) | — | Easy | First True Binary Search |
 
 
 ### 🟡 Medium
 
 | # | Problem | Solution | LeetCode | GFG | Difficulty | Key Pattern |
 |---|---|---|---|---|---|---|
-| 07 | Find First and Last Occurence | [📄 Code](binary_search.cpp/first_and_last_place_of_target.cpp) | [🔗 LC 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | — | Medium | First True Binary Search /Last True Binary Search /Boundary Binary Search |
-| 08 | Search in rotated sorted array-I | [📄 Code](binary_search.cpp/search_in_rotated_sorted_array_1.cpp) | [🔗 LC 33](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | — | Medium | Binary Search on Rotated Array |
-| 09 | Search in rotated sorted array-II | [📄 Code](binary_search.cpp/search_in_rotated_sorted_array_2.cpp) | [🔗 LC 81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | — | Medium | Binary Search on Rotated Array with Duplicates |
-| 10 | Find minimum in Rotated Sorted Array | [📄 Code](binary_search.cpp/minimum_in_rotated_sorted_array.cpp) | [🔗 LC 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | — | Medium | Binary Search on Rotated Array |
-| 11 | Find out how many times the array is rotated | [📄 Code](binary_search.cpp/rotation_count_in_rotated_sorted_array.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/rotation4723/1) | Medium | Binary Search on Rotated Array |
-| 12 | Single element in a Sorted Array | [📄 Code](binary_search.cpp/single_element_in_sorted_array.cpp) | [🔗 LC 540](https://leetcode.com/problems/single-element-in-a-sorted-array/description/) | — | Medium | Binary Search on Index Parity |
-| 13 | Find peak element | [📄 Code](binary_search.cpp/peak_element_in_array.cpp) | [🔗 LC 162](https://leetcode.com/problems/find-peak-element/) | — | Medium | Binary Search on Peak / Local Maximum |
-| 14 | Find square root of a number | [📄 Code](binary_search.cpp/find_floor_square_root.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/square-root/1) | Medium | Binary Search on Answer |
-| 15 | Valid Perfect Square | [📄 Code](binary_search.cpp/valid_perfect_square.cpp) | [🔗 LC 367](https://leetcode.com/problems/valid-perfect-square/) | — | Medium | Binary Search on Answer |
-| 16 | Find Nth Root of a Number | [📄 Code](binary_search.cpp/find_nth_root_of_M.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1) | Medium | Binary Search on Answer |
-*More problems being added regularly...*
+| 08 | Find First and Last Occurence | [📄 Code](binary_search.cpp/first_and_last_place_of_target.cpp) | [🔗 LC 34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | — | Medium | First True Binary Search /Last True Binary Search /Boundary Binary Search |
+| 09 | Search in rotated sorted array-I | [📄 Code](binary_search.cpp/search_in_rotated_sorted_array_1.cpp) | [🔗 LC 33](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | — | Medium | Binary Search on Rotated Array |
+| 10 | Search in rotated sorted array-II | [📄 Code](binary_search.cpp/search_in_rotated_sorted_array_2.cpp) | [🔗 LC 81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | — | Medium | Binary Search on Rotated Array with Duplicates |
+| 11 | Find minimum in Rotated Sorted Array | [📄 Code](binary_search.cpp/minimum_in_rotated_sorted_array.cpp) | [🔗 LC 153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | — | Medium | Binary Search on Rotated Array |
+| 12 | Find out how many times the array is rotated | [📄 Code](binary_search.cpp/rotation_count_in_rotated_sorted_array.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/rotation4723/1) | Medium | Binary Search on Rotated Array |
+| 13 | Single element in a Sorted Array | [📄 Code](binary_search.cpp/single_element_in_sorted_array.cpp) | [🔗 LC 540](https://leetcode.com/problems/single-element-in-a-sorted-array/description/) | — | Medium | Binary Search on Index Parity |
+| 14 | Find peak element | [📄 Code](binary_search.cpp/peak_element_in_array.cpp) | [🔗 LC 162](https://leetcode.com/problems/find-peak-element/) | — | Medium | Binary Search on Peak / Local Maximum |
+| 15 | Find square root of a number | [📄 Code](binary_search.cpp/find_floor_square_root.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/square-root/1) | Medium | Binary Search on Answer |
+| 16 | Valid Perfect Square | [📄 Code](binary_search.cpp/valid_perfect_square.cpp) | [🔗 LC 367](https://leetcode.com/problems/valid-perfect-square/) | — | Medium | Binary Search on Answer |
+| 17 | Find Nth Root of a Number | [📄 Code](binary_search.cpp/find_nth_root_of_M.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1) | Medium | Binary Search on Answer |
+| 18 | Koko Eating Bananas | [📄 Code](binary_search.cpp/koko_eating_bananas.cpp) | [🔗 LC 875](https://leetcode.com/problems/koko-eating-bananas/) | — | Medium | Binary Search on Answer |
+| 19 | Minimum Days to Make M Bouquets | [📄 Code](binary_search.cpp/min_no_of_days_to_make_m_bouquets.cpp) | [🔗 LC 1482](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | — | Medium | Binary Search on Answer |
+| 20 | Find Smallest Divisor Under Threshold | [📄 Code](binary_search.cpp/smallest_divisor_under_threshold.cpp) | [🔗 LC 1283](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/) | — | Medium | Binary Search on Answer |
+| 21 | Capacity to Ship Packages Within D Days | [📄 Code](binary_search.cpp/least_capacity_to_ship_packages_within_D_days.cpp) | [🔗 LC 1011](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | — | Medium | Binary Search on Answer |
+| 22 | Kth Missing Positive Number | [📄 Code](binary_search.cpp/Kth_missing_positive_number.cpp) | [🔗 LC 1539](https://leetcode.com/problems/kth-missing-positive-number/) | — | Medium | Binary Search on Answer |
+| 23 | Finding Row with Maximum Ones | [📄 Code](binary_search.cpp/finding_row_with_maximum_ones.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/row-with-max-1s0023/1) | Medium | Binary Search per Row |
+| 24 | Search in 2D Matrix | [📄 Code](binary_search.cpp/search_in_2D_matrix.cpp) | [🔗 LC 74](https://leetcode.com/problems/search-a-2d-matrix/) | — | Medium | Flatten + Binary Search |
+| 25 | Search in 2D Matrix II | [📄 Code](binary_search.cpp/search_in_2D_matrix_II.cpp) | [🔗 LC 240](https://leetcode.com/problems/search-a-2d-matrix-ii/) | — | Medium | Staircase Search |
+| 26 | Peak Element in 2D Matrix | [📄 Code](binary_search.cpp/find_peak_element_II.cpp) | [🔗 LC 1901](https://leetcode.com/problems/find-a-peak-element-ii/) | — | Medium | Binary Search on Columns |
+
+### 🔴 Hard
+
+| # | Problem | Solution | LeetCode | GFG | Difficulty | Key Pattern |
+|---|---|---|---|---|---|---|
+| 27 | Median in Row-Wise Sorted Matrix | [📄 Code](binary_search.cpp/median_in_matrix.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1) | Hard | Binary Search on Answer |
+| 28 | Magnetic Force Between Two Balls | [📄 Code](binary_search.cpp/magnetic_force_between_two_balls.cpp) | [🔗 LC 1552](https://leetcode.com/problems/magnetic-force-between-two-balls/) | — | Hard | Binary Search on Answer |
+| 29 | Split Array Largest Sum | [📄 Code](binary_search.cpp/split_array_largest_sum.cpp) | [🔗 LC 410](https://leetcode.com/problems/split-array-largest-sum/) | — | Hard | Binary Search on Answer |
+| 30 | Find the Duplicate Number | [📄 Code](binary_search.cpp/find_the_duplicate_number_in_array.cpp) | [🔗 LC 287](https://leetcode.com/problems/find-the-duplicate-number/) | — | Hard | Binary Search on Answer |
+
 
 ---
 
@@ -172,14 +192,16 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 | Pattern | Problems Using It |
 |---|---|
 | Binary Search on Sorted Array | Binary Search (classic) |
-| First True Binary Search on Sorted Array | Lower bound, Upper bound, Search Insertion position, Ceil in Sorted Array, First and Last Occurence |
+| First True Binary Search on Sorted Array | Lower bound, Upper bound, Search Insertion position, Ceil in Sorted Array, First and Last Occurence, First Bad Version |
 | Last True Binary Search | Floor in Sorted Array, First and Last Occurence |
 | Boundary Binary Search | First and Last Occurence |
 | Binary Search on Rotated Array | Search in rotated sorted array-I, Minimum in Rotated Sorted Array, Find out how many times the array is rotated |
 | Binary Search on Rotated Array with Duplicates | Search in rotated sorted array-II |
 | Binary Search on Index Parity | Single element in a Sorted Array |
 | Binary Search on Peak | Find peak element |
-| Binary Search on Answer | Find square root of a number, Valid Perfect Square, Find Nth Root of a Number |
+| Binary Search on Answer | Find square root of a number, Valid Perfect Square, Find Nth Root of a Number, Koko Eating Bananas, Minimum Days to Make M Bouquets, Smallest Divisor Under Threshold, Capacity to Ship Packages Within D Days, Kth Missing Positive Number, Median in Row-Wise Sorted Matrix, Magnetic Force Between Two Balls, Split Array Largest Sum |
+| Binary Search on 2D Matrix | Finding Row with Maximum Ones, Search in 2D Matrix, Search in 2D Matrix II, Peak Element in 2D Matrix |
+| Staircase Search | Search in 2D Matrix II |
 
 </details>
 
@@ -208,7 +230,7 @@ Each file contains:
 
 ```
 ✅ Phase 1 — Arrays          (32 problems) — COMPLETE
-🔄 Phase 2 — Binary Search   (30+ problems) — IN PROGRESS
+✅ Phase 2 — Binary Search   (30 problems) — COMPLETE
 ⏳ Phase 3 — Strings          (15+ problems)
 ⏳ Phase 4 — Linked Lists     (30+ problems)
 ⏳ Phase 5 — Recursion        (20+ problems)
@@ -253,16 +275,7 @@ Each file contains:
 
 7. **Solve each problem at least twice** — once to learn, once to code from scratch without looking.
 
----
 
-## ⚠️ Known Issues in Code
-
-> Bugs found while reviewing — useful for learning what to watch out for:
-
-| File | Bug | Fix |
-|---|---|---|
-| `longest_subarray_sum_k_positive.cpp` | `better()` uses `a[i]` instead of `array[i]` | Rename to `array[i]` |
-| `second_largest_element.cpp` | `slargest` initialized to `0` (fails for all-negative input) | Initialize to `INT_MIN` |
 
 ---
 
