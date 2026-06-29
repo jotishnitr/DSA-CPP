@@ -44,6 +44,15 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 
 ---
 
+## 📝 Notion Notes
+
+| Topic | Link |
+|---|---|
+| 🔍 Binary Search — Complete Notes | [Open in Notion](https://charming-stem-6b2.notion.site/Binary-Search-Complete-Notes-38ec8f93d06d80aa8c71f79c6a5746ed?pvs=73) |
+| 📚 DSA — Data Structures and Algorithms | [Open in Notion](https://charming-stem-6b2.notion.site/DSA-Data-Structures-and-Algorithms-36cc8f93d06d803b839acd0c7f984abe) |
+
+---
+
 ## 📁 Arrays
 
 > **33 Problems** · Each file contains: Problem Statement · Brute Force · Better Approach · Optimal Solution · Time & Space Complexity Analysis
