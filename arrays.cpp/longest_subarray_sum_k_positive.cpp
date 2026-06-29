@@ -63,7 +63,7 @@ int better(int n,int k,int array[]){
     long long sum=0;
     int maxlen=0;
     for(int i=0;i<n;i++){
-        sum+=a[i];
+        sum+=array[i];
         if(sum==k){
             maxlen=max(maxlen,i+1);
         }
