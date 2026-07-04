@@ -5,8 +5,8 @@
 [![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://cplusplus.com/)
 [![Sheet](https://img.shields.io/badge/Sheet-Striver%20A2Z-orange?style=for-the-badge)](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 [![College](https://img.shields.io/badge/College-NIT%20Rourkela-blue?style=for-the-badge)](https://www.nitrkl.ac.in/)
-[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-63-brightgreen?style=for-the-badge)](#)
-[![Focus](https://img.shields.io/badge/Current%20Focus-Strings%20-red?style=for-the-badge)](#Strings)
+[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-76-brightgreen?style=for-the-badge)](#)
+[![Focus](https://img.shields.io/badge/Current%20Focus-Linked_List-red?style=for-the-badge)](#Linked-List)
 
 <br/>
 
@@ -14,7 +14,7 @@
 
 **A documented DSA learning journey by a first-year CSE student at NIT Rourkela, targeting top product companies.**
 
-[📚 Jump to Arrays](#-arrays) • [🔍 Jump to Binary Search](#-binary-search) • [🧠 Patterns Learned](#-patterns-mastered) • [🗺️ Roadmap](#%EF%B8%8F-learning-roadmap)
+[📚 Jump to Arrays](#-arrays) • [🔍 Jump to Binary Search](#-binary-search) • [🔤 Jump to Strings](#-strings) • [🧠 Patterns Learned](#-patterns-mastered) • [🗺️ Roadmap](#%EF%B8%8F-learning-roadmap)
 
 </div>
 
@@ -33,23 +33,14 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 | Topic | Status | Problems Solved |
 |---|---|---|
 | Arrays | ✅ Complete | 33 / 33 |
-| Binary Search | ✅ Complete | 30 / 30 |
-| Strings | ⏳ Upcoming | 0 |
-| Linked Lists | ⏳ Upcoming | 0 |
+| Binary Search |  ✅ Complete | 30 / 30 |
+| Strings |  ✅ Complete | 13 / 13 |
+| Linked Lists | 🔄 In Progres | 0 |
 | Recursion & Backtracking | ⏳ Upcoming | 0 |
 | Stack & Queue | ⏳ Upcoming | 0 |
 | Trees | ⏳ Upcoming | 0 |
 | Graphs | ⏳ Upcoming | 0 |
 | Dynamic Programming | ⏳ Upcoming | 0 |
-
----
-
-## 📝 Notion Notes
-
-| Topic | Link |
-|---|---|
-| 🔍 Binary Search — Complete Notes | [Open in Notion](https://charming-stem-6b2.notion.site/Binary-Search-Complete-Notes-38ec8f93d06d80aa8c71f79c6a5746ed?pvs=73) |
-| 📚 DSA — Data Structures and Algorithms | [Open in Notion](https://charming-stem-6b2.notion.site/DSA-Data-Structures-and-Algorithms-36cc8f93d06d803b839acd0c7f984abe) |
 
 ---
 
@@ -156,7 +147,43 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 | 28 | Magnetic Force Between Two Balls | [📄 Code](binary_search.cpp/magnetic_force_between_two_balls.cpp) | [🔗 LC 1552](https://leetcode.com/problems/magnetic-force-between-two-balls/) | — | Hard | Binary Search on Answer |
 | 29 | Split Array Largest Sum | [📄 Code](binary_search.cpp/split_array_largest_sum.cpp) | [🔗 LC 410](https://leetcode.com/problems/split-array-largest-sum/) | — | Hard | Binary Search on Answer |
 | 30 | Find the Duplicate Number | [📄 Code](binary_search.cpp/find_the_duplicate_number_in_array.cpp) | [🔗 LC 287](https://leetcode.com/problems/find-the-duplicate-number/) | — | Hard | Binary Search on Answer |
+*More problems being added regularly...*
 
+---
+
+## 🔤 Strings
+
+> **13 Problems** · Each file contains: Problem Statement · Brute Force · Better Approach · Optimal Solution · Time & Space Complexity Analysis
+
+### 🟢 Easy
+
+| # | Problem | Solution | LeetCode | GFG | Difficulty | Key Pattern |
+|---|---|---|---|---|---|---|
+| 01 | Largest Odd Number in String | [📄 Code](strings.cpp/largest_odd_number_in_string.cpp) | [🔗 LC 1903](https://leetcode.com/problems/largest-odd-number-in-string/) | — | Easy | Greedy / Right Traversal |
+| 02 | Longest Common Prefix | [📄 Code](strings.cpp/longest_common_prefix.cpp) | [🔗 LC 14](https://leetcode.com/problems/longest-common-prefix/) | — | Easy | Vertical Scanning |
+| 03 | Valid Anagram | [📄 Code](strings.cpp/valid_anagram.cpp) | [🔗 LC 242](https://leetcode.com/problems/valid-anagram/) | — | Easy | Frequency Count |
+| 04 | Rotate String | [📄 Code](strings.cpp/rotate_string.cpp) | [🔗 LC 796](https://leetcode.com/problems/rotate-string/) | — | Easy | String Concatenation / KMP |
+| 05 | Isomorphic Strings | [📄 Code](strings.cpp/isomorphic_strings.cpp) | [🔗 LC 205](https://leetcode.com/problems/isomorphic-strings/) | — | Easy | Character Mapping |
+| 06 | Roman to Integer | [📄 Code](strings.cpp/roman_to_integer.cpp) | [🔗 LC 13](https://leetcode.com/problems/roman-to-integer/) | — | Easy | Greedy / Hash Map |
+| 07 | String to Integer (atoi) | [📄 Code](strings.cpp/string_to_integer.cpp) | [🔗 LC 8](https://leetcode.com/problems/string-to-integer-atoi/) | — | Easy | String Parsing |
+
+### 🟡 Medium
+
+| # | Problem | Solution | LeetCode | GFG | Difficulty | Key Pattern |
+|---|---|---|---|---|---|---|
+| 08 | Reverse Words in a String | [📄 Code](strings.cpp/reverse_words_in_a_string.cpp) | [🔗 LC 151](https://leetcode.com/problems/reverse-words-in-a-string/) | — | Medium | Two Pointer / Stack |
+| 09 | Maximum Nesting Depth of Parentheses | [📄 Code](strings.cpp/maximum_nesting_depth_of_paren...cpp) | [🔗 LC 1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | — | Medium | Stack / Counter |
+| 10 | Remove Outermost Parentheses | [📄 Code](strings.cpp/remove_outermost_parentheses.cpp) | [🔗 LC 1021](https://leetcode.com/problems/remove-outermost-parentheses/) | — | Medium | Stack / Counter |
+| 11 | Sum of Beauty of All Substrings | [📄 Code](strings.cpp/sum_of_beauty_of_all_substrings.cpp) | [🔗 LC 1781](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/) | — | Medium | Frequency Count |
+| 12 | Count Number of Substrings | [📄 Code](strings.cpp/count_no_of_substrings.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/count-number-of-substrings4528/1) | Medium | Sliding Window (AtMost K trick) |
+
+### 🔴 Hard
+
+| # | Problem | Solution | LeetCode | GFG | Difficulty | Key Pattern |
+|---|---|---|---|---|---|---|
+| 13 | Longest Palindromic Substring | [📄 Code](strings.cpp/longest_palindrome_substring.cpp) | [🔗 LC 5](https://leetcode.com/problems/longest-palindromic-substring/) | — | Hard | Expand Around Center / DP |
+
+*More problems being added regularly...*
 
 ---
 
@@ -214,6 +241,25 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 
 </details>
 
+<details>
+<summary><b>📌 Strings (Click to expand)</b></summary>
+
+| Pattern | Problems Using It |
+|---|---|
+| Greedy / Right Traversal | Largest Odd Number in String |
+| Vertical Scanning | Longest Common Prefix |
+| Frequency Count | Valid Anagram, Sum of Beauty of All Substrings |
+| String Concatenation | Rotate String |
+| Character Mapping | Isomorphic Strings |
+| Hash Map / Greedy | Roman to Integer |
+| String Parsing | String to Integer (atoi) |
+| Two Pointer / Stack | Reverse Words in a String |
+| Stack / Counter | Maximum Nesting Depth of Parentheses, Remove Outermost Parentheses |
+| Sliding Window (AtMost K trick) | Count Number of Substrings |
+| Expand Around Center | Longest Palindromic Substring |
+
+</details>
+
 ---
 
 ## 🛠️ Problem-Solving Approach
@@ -238,10 +284,10 @@ Each file contains:
 ## 🗺️ Learning Roadmap
 
 ```
-✅ Phase 1 — Arrays          (32 problems) — COMPLETE
-✅ Phase 2 — Binary Search   (30 problems) — COMPLETE
-⏳ Phase 3 — Strings          (15+ problems)
-⏳ Phase 4 — Linked Lists     (30+ problems)
+✅ Phase 1 — Arrays          (33 problems) — COMPLETE
+🔄 Phase 2 — Binary Search   (30 problems) — COMPLETE
+⏳ Phase 3 — Strings          (13 problems) - COMPLETE
+⏳ Phase 4 — Linked Lists     (30+ problems) - PROGRESS
 ⏳ Phase 5 — Recursion        (20+ problems)
 ⏳ Phase 6 — Stack & Queue    (20+ problems)
 ⏳ Phase 7 — Greedy           (15+ problems)
@@ -285,7 +331,6 @@ Each file contains:
 7. **Solve each problem at least twice** — once to learn, once to code from scratch without looking.
 
 
-
 ---
 
 ## 🤝 About This Repository
@@ -300,7 +345,7 @@ If this repository helped you in any way, consider starring ⭐ it — it motiva
 
 <div align="center">
 
-*📅 Started: 2024 · Updated continuously*
+*📅 Started: 2026 · Updated continuously*
 
 *Made with consistency, not motivation.*
 
