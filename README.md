@@ -172,7 +172,7 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 | # | Problem | Solution | LeetCode | GFG | Difficulty | Key Pattern |
 |---|---|---|---|---|---|---|
 | 08 | Reverse Words in a String | [📄 Code](strings.cpp/reverse_words_in_a_string.cpp) | [🔗 LC 151](https://leetcode.com/problems/reverse-words-in-a-string/) | — | Medium | Two Pointer / Stack |
-| 09 | Maximum Nesting Depth of Parentheses | [📄 Code](strings.cpp/maximum_nesting_depth_of_paren...cpp) | [🔗 LC 1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | — | Medium | Stack / Counter |
+| 09 | Maximum Nesting Depth of Parentheses | [📄 Code](strings.cpp/maximum_nesting_depth_of_parentheses.cpp) | [🔗 LC 1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parenthesis/) | — | Medium | Stack / Counter |
 | 10 | Remove Outermost Parentheses | [📄 Code](strings.cpp/remove_outermost_parentheses.cpp) | [🔗 LC 1021](https://leetcode.com/problems/remove-outermost-parentheses/) | — | Medium | Stack / Counter |
 | 11 | Sum of Beauty of All Substrings | [📄 Code](strings.cpp/sum_of_beauty_of_all_substrings.cpp) | [🔗 LC 1781](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/) | — | Medium | Frequency Count |
 | 12 | Count Number of Substrings | [📄 Code](strings.cpp/count_no_of_substrings.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/count-number-of-substrings4528/1) | Medium | Sliding Window (AtMost K trick) |
