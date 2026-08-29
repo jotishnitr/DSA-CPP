@@ -5,8 +5,8 @@
 [![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://cplusplus.com/)
 [![Sheet](https://img.shields.io/badge/Sheet-Striver%20A2Z-orange?style=for-the-badge)](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
 [![College](https://img.shields.io/badge/College-NIT%20Rourkela-blue?style=for-the-badge)](https://www.nitrkl.ac.in/)
-[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-76-brightgreen?style=for-the-badge)](#)
-[![Focus](https://img.shields.io/badge/Current%20Focus-Linked_List-red?style=for-the-badge)](#Linked-List)
+[![Problems Solved](https://img.shields.io/badge/Problems%20Solved-98-brightgreen?style=for-the-badge)](#)
+[![Focus](https://img.shields.io/badge/Current%20Focus-Recursion-red?style=for-the-badge)](#Recursion)
 
 <br/>
 
@@ -14,7 +14,7 @@
 
 **A documented DSA learning journey by a first-year CSE student at NIT Rourkela, targeting top product companies.**
 
-[📚 Jump to Arrays](#-arrays) • [🔍 Jump to Binary Search](#-binary-search) • [🔤 Jump to Strings](#-strings) • [🧠 Patterns Learned](#-patterns-mastered) • [🗺️ Roadmap](#%EF%B8%8F-learning-roadmap)
+[📚 Jump to Arrays](#-arrays) • [🔍 Jump to Binary Search](#-binary-search) • [🔤 Jump to Strings](#-strings) • [🔗 Jump to Linked List](#-linked-list) • [🧠 Patterns Learned](#-patterns-mastered) • [🗺️ Roadmap](#%EF%B8%8F-learning-roadmap)
 
 </div>
 
@@ -35,8 +35,8 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 | Arrays | ✅ Complete | 33 / 33 |
 | Binary Search |  ✅ Complete | 30 / 30 |
 | Strings |  ✅ Complete | 13 / 13 |
-| Linked Lists | 🔄 In Progres | 0 |
-| Recursion & Backtracking | ⏳ Upcoming | 0 |
+| Linked Lists | ✅ Complete | 22 / 22 |
+| Recursion & Backtracking | 🔄 In Progress | 0 |
 | Stack & Queue | ⏳ Upcoming | 0 |
 | Trees | ⏳ Upcoming | 0 |
 | Graphs | ⏳ Upcoming | 0 |
@@ -187,6 +187,51 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 
 ---
 
+## 🔗 Linked List
+
+> **22 Problems** · Each file contains: Problem Statement · Brute Force · Better Approach · Optimal Solution · Time & Space Complexity Analysis
+
+### 🟢 Easy
+
+| # | Problem | Solution | LeetCode | GFG | Difficulty | Key Pattern |
+|---|---|---|---|---|---|---|
+| 01 | Reverse Linked List | [📄 Code](Linked_List.cpp/reverse_a_LL.cpp) | [🔗 LC 206](https://leetcode.com/problems/reverse-linked-list/) | [🔗 GFG](https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1) | Easy | Pointer Manipulation / Recursion |
+| 02 | Middle of the Linked List | [📄 Code](Linked_List.cpp/middle_of_LL.cpp) | [🔗 LC 876](https://leetcode.com/problems/middle-of-the-linked-list/) | [🔗 GFG](https://www.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1) | Easy | Slow & Fast Pointer |
+| 03 | Linked List Cycle | [📄 Code](Linked_List.cpp/find_a_loop_in_LL.cpp) | [🔗 LC 141](https://leetcode.com/problems/linked-list-cycle/) | [🔗 GFG](https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1) | Easy | Floyd's Cycle Detection |
+| 04 | Delete Head, Tail & Given Node — Singly LL | [📄 Code](Linked_List.cpp/deletion_in_LL.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1) | Easy | Pointer Manipulation |
+| 05 | Delete Head, Tail & Given Node — Doubly LL | [📄 Code](Linked_List.cpp/deletion_in_DLL.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/delete-node-in-doubly-linked-list/1) | Easy | Doubly Linked List + Pointer Manipulation |
+| 06 | Reverse a Doubly Linked List | [📄 Code](Linked_List.cpp/reverse_a_DLL.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1) | Easy | Pointer Manipulation |
+| 07 | Remove Duplicates from a Sorted Linked List | [📄 Code](Linked_List.cpp/remove_duplicates_in_LL.cpp) | [🔗 LC 83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [🔗 GFG](https://www.geeksforgeeks.org/problems/remove-duplicates-from-a-sorted-linked-list/1) | Easy | Traversal + Pointer Manipulation |
+| 08 | Remove Duplicates from a Sorted Doubly LL | [📄 Code](Linked_List.cpp/remove_duplicates_in_DLL.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/remove-duplicates-from-a-sorted-doubly-linked-list/1) | Easy | Doubly Linked List + Pointer Manipulation |
+| 09 | Palindrome Linked List | [📄 Code](Linked_List.cpp/palindrome_LL.cpp) | [🔗 LC 234](https://leetcode.com/problems/palindrome-linked-list/) | [🔗 GFG](https://www.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1) | Easy | Slow & Fast Pointer + Reverse LL |
+| 10 | Intersection of Two Linked Lists | [📄 Code](Linked_List.cpp/intersection_of_two_LL's.cpp) | [🔗 LC 160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [🔗 GFG](https://www.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1) | Easy | Hashing / Two Pointer Switching |
+
+### 🟡 Medium
+
+| # | Problem | Solution | LeetCode | GFG | Difficulty | Key Pattern |
+|---|---|---|---|---|---|---|
+| 11 | Delete the Middle Node of a Linked List | [📄 Code](Linked_List.cpp/remove_middle_node_from_LL.cpp) | [🔗 LC 2095](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | [🔗 GFG](https://www.geeksforgeeks.org/problems/delete-middle-of-linked-list/1) | Medium | Slow & Fast Pointer |
+| 12 | Remove Nth Node From End of List | [📄 Code](Linked_List.cpp/remove_nth_node_from_LL.cpp) | [🔗 LC 19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [🔗 GFG](https://www.geeksforgeeks.org/problems/delete-nth-node-from-end-of-linked-list/1) | Medium | Two Pointer (Fast & Slow) |
+| 13 | Add 1 to a Number Represented as Linked List | [📄 Code](Linked_List.cpp/add_1_to_a_LL.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1) | Medium | Reverse LL + Recursion |
+| 14 | Add Two Numbers | [📄 Code](Linked_List.cpp/add_two_numbers_in_LL.cpp) | [🔗 LC 2](https://leetcode.com/problems/add-two-numbers/) | — | Medium | Simulation + Carry Handling + Dummy Node |
+| 15 | Sort a Linked List of 0s, 1s and 2s | [📄 Code](Linked_List.cpp/sort_a_0's_1's_2's_LL.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1) | Medium | Counting / Three Separate Lists |
+| 16 | Rotate List | [📄 Code](Linked_List.cpp/rotate_a_LL.cpp) | [🔗 LC 61](https://leetcode.com/problems/rotate-list/) | — | Medium | Circular LL + Pointer Manipulation |
+| 17 | Delete All Occurrences of a Value in a DLL | [📄 Code](Linked_List.cpp/delete_all_occurences_in_DLL.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/delete-all-occurrences-of-a-key-in-doubly-linked-list/1) | Medium | Doubly Linked List + Pointer Manipulation |
+| 18 | Find Pairs with Given Sum in a DLL | [📄 Code](Linked_List.cpp/pair_sum_in_DLL.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1) | Medium | Two Pointer (Left & Right) |
+| 19 | Sort List | [📄 Code](Linked_List.cpp/sort_a_LL.cpp) | [🔗 LC 148](https://leetcode.com/problems/sort-list/) | [🔗 GFG](https://www.geeksforgeeks.org/problems/sort-a-linked-list/1) | Medium | Merge Sort on Linked List |
+
+### 🔴 Hard
+
+| # | Problem | Solution | LeetCode | GFG | Difficulty | Key Pattern |
+|---|---|---|---|---|---|---|
+| 20 | Flattening a Linked List | [📄 Code](Linked_List.cpp/flatten_a_LL.cpp) | — | [🔗 GFG](https://www.geeksforgeeks.org/problems/flattening-a-linked-list/0) | Hard | Merge Two Sorted Lists (Recursion) |
+| 21 | Reverse Nodes in K-Group | [📄 Code](Linked_List.cpp/reverse_nodes_in_k_group_in_LL.cpp) | [🔗 LC 25](https://leetcode.com/problems/reverse-nodes-in-k-group/) | — | Hard | Group Reversal + Pointer Manipulation |
+| 22 | Copy List with Random Pointer | [📄 Code](Linked_List.cpp/copy_list_with_random_pointer.cpp) | [🔗 LC 138](https://leetcode.com/problems/copy-list-with-random-pointer/) | — | Hard | HashMap / Interweaving Nodes |
+
+*More problems being added regularly...*
+
+---
+
 ## 🧠 Patterns Mastered
 
 <details>
@@ -260,6 +305,27 @@ Build rock-solid DSA fundamentals following the **Striver A2Z Sheet** — solvin
 
 </details>
 
+<details>
+<summary><b>📌 Linked List (Click to expand)</b></summary>
+
+| Pattern | Problems Using It |
+|---|---|
+| Pointer Manipulation | Reverse LL, Reverse DLL, Deletion in LL/DLL |
+| Slow & Fast Pointer (Tortoise and Hare) | Middle of LL, Delete Middle Node, Palindrome LL |
+| Floyd's Cycle Detection | Linked List Cycle |
+| Two Pointer (Fast & Slow / Left & Right) | Remove Nth Node from End, Pair Sum in DLL |
+| Two Pointer Switching / Hashing | Intersection of Two LLs |
+| Recursion | Reverse LL, Add 1 to a Number in LL |
+| Simulation + Dummy Node | Add Two Numbers |
+| Counting / Three Separate Lists | Sort a LL of 0s, 1s, 2s |
+| Circular Linked List | Rotate List |
+| Merge Sort on Linked List | Sort List |
+| Merge Two Sorted Lists (Recursion) | Flattening a Linked List |
+| Group Reversal | Reverse Nodes in K-Group |
+| HashMap / Interweaving Nodes | Copy List with Random Pointer |
+
+</details>
+
 ---
 
 ## 🛠️ Problem-Solving Approach
@@ -287,8 +353,8 @@ Each file contains:
 ✅ Phase 1 — Arrays          (33 problems) — COMPLETE
 🔄 Phase 2 — Binary Search   (30 problems) — COMPLETE
 ⏳ Phase 3 — Strings          (13 problems) - COMPLETE
-⏳ Phase 4 — Linked Lists     (30+ problems) - PROGRESS
-⏳ Phase 5 — Recursion        (20+ problems)
+✅ Phase 4 — Linked Lists     (22 problems)   — COMPLETE
+🔄 Phase 5 — Recursion        (20+ problems)  — IN PROGRESS
 ⏳ Phase 6 — Stack & Queue    (20+ problems)
 ⏳ Phase 7 — Greedy           (15+ problems)
 ⏳ Phase 8 — Binary Trees     (30+ problems)
