@@ -82,7 +82,14 @@ using namespace std;
 class Solution {
 public:
 
+    //====================================================
+    // Brute Force (Using Vector + Sort)
+    // Time: O(n log n)
+    // Space: O(n)
+    //====================================================
+
     void sortStackBrute(stack<int>& st) {
+
         vector<int> arr;
 
         while (!st.empty()) {
@@ -92,11 +99,19 @@ public:
 
         sort(arr.begin(), arr.end());
 
-        for (int x : arr)
+        for (int x : arr) {
             st.push(x);
+        }
     }
 
+    //====================================================
+    // Optimal (Recursion)
+    // Time: O(n²)
+    // Space: O(n)
+    //====================================================
+
     void insert(stack<int>& st, int temp) {
+
         if (st.empty() || st.top() <= temp) {
             st.push(temp);
             return;
@@ -104,34 +119,63 @@ public:
 
         int val = st.top();
         st.pop();
+
         insert(st, temp);
+
         st.push(val);
     }
 
     void sortStack(stack<int>& st) {
+
         if (!st.empty()) {
+
             int temp = st.top();
             st.pop();
+
             sortStack(st);
+
             insert(st, temp);
         }
     }
 };
 
-int main() {
-    stack<int> st;
-    st.push(3);
-    st.push(1);
-    st.push(4);
-    st.push(2);
-
-    Solution obj;
-    obj.sortStack(st);
+void printStack(stack<int> st) {
 
     while (!st.empty()) {
         cout << st.top() << " ";
         st.pop();
     }
+    cout << endl;
+}
+
+int main() {
+
+    Solution obj;
+
+    stack<int> st;
+
+    st.push(3);
+    st.push(1);
+    st.push(4);
+    st.push(2);
+    st.push(5);
+
+    cout << "Original Stack: ";
+    printStack(st);
+
+    // ---------- Brute Force ----------
+    stack<int> brute = st;
+    obj.sortStackBrute(brute);
+
+    cout << "After Brute Force Sorting: ";
+    printStack(brute);
+
+    // ---------- Optimal ----------
+    stack<int> optimal = st;
+    obj.sortStack(optimal);
+
+    cout << "After Recursive Sorting: ";
+    printStack(optimal);
 
     return 0;
 }
